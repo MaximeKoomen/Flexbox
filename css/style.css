@@ -1,0 +1,138 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  background-color: white; }
+  .flex-container .p-large {
+    font-size: 150%;
+    color: black;
+    font-family: "Palatino", serif; }
+  .flex-container .flex-item-nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+    height: 100%;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid black; }
+    .flex-container .flex-item-nav .nav-image {
+      display: flex;
+      max-width: 400px;
+      max-height: 400px; }
+    .flex-container .flex-item-nav .nav {
+      display: flex;
+      justify-content: center;
+      height: 80%;
+      background-color: lightgrey; }
+    .flex-container .flex-item-nav .social-media-icons {
+      display: flex;
+      flex-direction: row;
+      height: 30%;
+      align-items: center;
+      justify-content: space-around;
+      padding: 37px; }
+    .flex-container .flex-item-nav .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none; }
+    .flex-container .flex-item-nav .fa-facebook {
+      background: #3B5998;
+      color: white; }
+    .flex-container .flex-item-nav .fa-linkedin {
+      background: #007bb5;
+      color: white; }
+    .flex-container .flex-item-nav .fa-instagram {
+      background: #125688;
+      color: white; }
+  .flex-container .flex-item-page {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 50%;
+    height: auto;
+    margin: 10px;
+    padding: 2% 3% 10% 2%;
+    background-color: #ffffff;
+    border: 1px solid black; }
+    .flex-container .flex-item-page h1 {
+      font-size: 300%;
+      color: #1D3461;
+      font-family: Georgia, serif; }
+    .flex-container .flex-item-page h2 {
+      font-size: 200%;
+      color: #3A6EA5;
+      font-family: Georgia, serif; }
+    .flex-container .flex-item-page h3 {
+      font-size: 150%;
+      color: #3A6EA5;
+      font-family: Georgia, serif; }
+    .flex-container .flex-item-page .intro {
+      display: flex;
+      flex-direction: column;
+      text-align: left; }
+    .flex-container .flex-item-page .skills {
+      display: flex;
+      -webkit-flex-direction: column; }
+      .flex-container .flex-item-page .skills .skill-bar {
+        width: 100%;
+        height: 15px;
+        margin: 5px;
+        background: #D8DBE2;
+        overflow: hidden; }
+      .flex-container .flex-item-page .skills .progress-skill {
+        height: 100%;
+        width: 30%;
+        background: #373F51; }
+    .flex-container .flex-item-page .experience {
+      display: flex;
+      flex-direction: column; }
+      .flex-container .flex-item-page .experience .experience-text {
+        display: flex;
+        justify-content: space-around; }
+    .flex-container .flex-item-page .projects {
+      display: flex;
+      flex-direction: column; }
+      .flex-container .flex-item-page .projects .flex-item-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; }
+      .flex-container .flex-item-page .projects .portfolio-picture {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        border: 1px solid white; }
+    .flex-container .flex-item-page .contact {
+      display: flex;
+      flex-flow: column wrap; }
+      .flex-container .flex-item-page .contact .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50%; }
+        .flex-container .flex-item-page .contact .contact-form .input {
+          display: flex;
+          background-color: #F0F0F0;
+          border: 1px solid grey;
+          height: 13%; }
+      .flex-container .flex-item-page .contact textarea {
+        background-color: #F0F0F0;
+        height: 30%; }
+      .flex-container .flex-item-page .contact .send {
+        display: flex;
+        background-color: #4F5D75;
+        width: 40%;
+        height: 10%;
+        color: white;
+        border: 1px solid grey;
+        justify-content: center; }
+  .flex-container .footer {
+    display: flex;
+    flex-direction: row-reverse; }
+    .flex-container .footer .main-footer {
+      display: flex;
+      background-color: green;
+      border: 1px solid black; }
