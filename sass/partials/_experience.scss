@@ -1,0 +1,9 @@
+.experience {
+	display: flex;
+	flex-direction: column;
+
+	.experience-text {
+		display: flex;
+		justify-content: space-around;
+	}
+}

@@ -1,0 +1,13 @@
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	width: auto;
+	height: auto;
+	background-color: $white;
+
+	.p-large{
+		font-size: 150%;
+		color: black;
+		font-family: $p-font;
+	}
+}

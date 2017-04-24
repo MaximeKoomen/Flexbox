@@ -1,0 +1,33 @@
+.contact{
+	display: flex;
+	flex-flow: column wrap;
+
+	.contact-form{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 50%;
+
+	.input{
+		display: flex;
+		background-color: $gray94;
+		border: 1px solid $grey;
+		height: 13%;
+		}
+	}
+
+	textarea{
+		background-color: $gray94;
+		height: 30%
+	}
+
+	.send{
+		display: flex;
+		background-color: $chambray;
+		width: 40%;
+		height: 10%;
+		color: white;
+		border: 1px solid $grey;
+		justify-content: center;
+	}
+}

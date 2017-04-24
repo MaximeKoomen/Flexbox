@@ -1,0 +1,54 @@
+.flex-item-nav{
+	display: flex;
+	flex-direction: column;
+	max-width: 35%;
+	height: 100%;
+	margin: 10px;
+	background-color: $white;
+	border: 1px solid $black;
+
+	.nav-image{
+		display: flex;
+		max-width: 400px;
+		max-height: 400px;
+	}
+
+	.nav{
+		display: flex;
+		justify-content: center;
+		height: 80%;
+		background-color: $lightgrey;
+	}
+
+	.social-media-icons{
+		display: flex;
+		flex-direction: row;
+		height: 30%;
+		align-items: center;
+		justify-content: space-around;
+		padding: 37px;
+	}
+
+	.fa{
+		padding: 20px;
+		font-size: 30px;
+		width: 30px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.fa-facebook{
+		background: $facebookblue;
+		color: $white;
+	}
+
+	.fa-linkedin{
+		background: $cerulean;
+		color: $white;
+	}
+
+	.fa-instagram{
+		background: $bahamablue;
+		color: $white;
+	}
+}
