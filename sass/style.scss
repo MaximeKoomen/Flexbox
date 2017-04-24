@@ -1,6 +1,7 @@
 // modules and variables
 @import "modules/_fonts";
 @import "modules/_colors";
+@import "modules/_typography";
 // partials
 @import "partials/_contact";
 @import "partials/_container";
@@ -12,6 +13,5 @@
 @import "partials/_projects";
 @import "partials/_skills";
 //vendor
-@import "vendor/_typography";
 @import "vendor/_normalise";
 //mixins
