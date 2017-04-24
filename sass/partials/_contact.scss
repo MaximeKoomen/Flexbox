@@ -4,9 +4,12 @@
 
 	.contact-form{
 		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		height: 50%;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 880px;
+        height: 450px;
+        text-align: left;
+        padding: 10px 0;
 
 	.input{
 		display: flex;
