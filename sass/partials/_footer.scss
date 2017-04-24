@@ -1,7 +1,6 @@
-.footer{
+footer{
 	display: flex;
-	flex-direction: row-reverse;
-	width: 10px;
+	width: 100%;
 	background-color: $green;
 	border: 1px solid $black;
 }
