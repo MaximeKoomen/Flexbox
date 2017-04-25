@@ -28,8 +28,11 @@ h3 {
     .contact .contact-form .input {
       display: flex;
       background-color: #F0F0F0;
-      border: 1px solid #808080;
-      height: 13%; }
+      height: 13%;
+      -webkit-border: 1px solid #000000;
+      -moz-border: 1px solid #000000;
+      -ms-border: 1px solid #000000;
+      border: 1px solid #000000; }
   .contact textarea {
     background-color: #F0F0F0;
     height: 30%; }
@@ -39,7 +42,10 @@ h3 {
     width: 40%;
     height: 10%;
     color: white;
-    border: 1px solid #808080;
+    -webkit-border: 1px solid #000000;
+    -moz-border: 1px solid #000000;
+    -ms-border: 1px solid #000000;
+    border: 1px solid #000000;
     justify-content: center; }
 
 .flex-container {
@@ -66,6 +72,9 @@ footer {
   width: 100%;
   height: 6vh;
   background-color: #4F5D75;
+  -webkit-border: 1px solid #000000;
+  -moz-border: 1px solid #000000;
+  -ms-border: 1px solid #000000;
   border: 1px solid #000000; }
 
 .intro {
@@ -82,6 +91,9 @@ footer {
   margin: 10px;
   padding: 2% 3% 10% 2%;
   background-color: #FFFFFF;
+  -webkit-border: 1px solid #000000;
+  -moz-border: 1px solid #000000;
+  -ms-border: 1px solid #000000;
   border: 1px solid #000000; }
 
 .flex-item-nav {
@@ -91,10 +103,10 @@ footer {
   height: 100%;
   margin: 10px;
   background-color: #FFFFFF;
-  -webkit-border: 1px;
-  -moz-border: 1px;
-  -ms-border: 1px;
-  border: 1px; }
+  -webkit-border: 1px solid black;
+  -moz-border: 1px solid black;
+  -ms-border: 1px solid black;
+  border: 1px solid black; }
   .flex-item-nav .nav-image {
     display: flex;
     max-width: 400px;
@@ -139,7 +151,10 @@ footer {
     display: flex;
     width: 200px;
     height: 200px;
-    border: 1px solid #FFFFFF; }
+    -webkit-border: 1px solid #000000;
+    -moz-border: 1px solid #000000;
+    -ms-border: 1px solid #000000;
+    border: 1px solid #000000; }
 
 .skills {
   display: flex;
