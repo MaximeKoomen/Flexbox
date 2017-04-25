@@ -61,6 +61,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-around;
   width: auto;
   height: auto;
   background-color: #FFFFFF; }
@@ -121,7 +122,6 @@ footer {
   flex-direction: column;
   max-width: 35%;
   height: 100%;
-  margin: 10px;
   background-color: #FFFFFF;
   -webkit-border: 1px solid black;
   -moz-border: 1px solid black;
