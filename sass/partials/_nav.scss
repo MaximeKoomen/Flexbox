@@ -1,4 +1,4 @@
-.flex-item-nav{
+.flex-item-nav {
 	display: flex;
 	flex-direction: column;
 	max-width: 35%;
@@ -7,20 +7,20 @@
 	background-color: $white;
 	@include border(1px solid black);
 
-	.nav-image{
+	.nav-image {
 		display: flex;
 		max-width: 400px;
 		max-height: 400px;
 	}
 
-	.nav{
+	.nav {
 		display: flex;
 		justify-content: center;
 		height: 250px;
 		background-color: $lightgrey;
 	}
 
-	.social-media-icons{
+	.social-media-icons {
 		display: flex;
 		flex-direction: row;
 		height: 30%;
@@ -29,7 +29,7 @@
 		padding: 37px;
 	}
 
-	.fa{
+	.fa {
 		padding: 20px;
 		font-size: 30px;
 		width: 30px;
@@ -37,17 +37,17 @@
 		text-decoration: none;
 	}
 
-	.fa-facebook{
+	.fa-facebook {
 		background: $facebookblue;
 		color: $white;
 	}
 
-	.fa-linkedin{
+	.fa-linkedin {
 		background: $cerulean;
 		color: $white;
 	}
 
-	.fa-instagram{
+	.fa-instagram {
 		background: $bahamablue;
 		color: $white;
 	}

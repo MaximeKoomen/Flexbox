@@ -1,8 +1,8 @@
-.skills{
+.skills {
 	display: flex;
 	flex-direction: column;
 
-	.skill-bar{
+	.skill-bar {
 		width: 100%;
 		height: 15px;
 		margin: 5px;
@@ -10,13 +10,13 @@
 		overflow: hidden;
 	}
 
-	.progress-skill{
+	.progress-skill {
 		height: 100%;
 		width: 30%;
 		background: $cloudburst;
 	}
 
-	.progress-text{
+	.progress-text {
 		text-align: right;
  		padding-right: 20px;
  		line-height: 40px;

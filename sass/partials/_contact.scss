@@ -1,8 +1,8 @@
-.contact{
+.contact {
 	display: flex;
 	flex-flow: column wrap;
 
-	.contact-form{
+	.contact-form {
 		display: flex;
 		flex-wrap: wrap-reverse;
 		flex-direction: column;
@@ -12,7 +12,7 @@
   	text-align: left;
 		padding: 10px 0;
 
-	.input{
+	.input {
 		display: flex;
 		background-color: $gray94;
 		height: 13%;
@@ -20,18 +20,18 @@
 		}
 	}
 
-	textarea{
+	textarea {
 		background-color: $gray94;
 		height: 30%
 	}
 
-	.send{
+	.send {
 		display: flex;
 		background-color: $chambray;
 		width: 40%;
 		height: 10%;
 		color: white;
-		@include border(1px solid $black);
 		justify-content: center;
+		@include border(1px solid $black);
 	}
 }
