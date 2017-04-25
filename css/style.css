@@ -16,6 +16,10 @@ h3 {
 .contact {
   display: flex;
   flex-flow: column wrap; }
+  .contact p {
+    font-size: 150%;
+    color: #000000;
+    font-weight: bold; }
   .contact .contact-form {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -35,13 +39,18 @@ h3 {
       border: 1px solid #000000; }
   .contact textarea {
     background-color: #F0F0F0;
-    height: 30%; }
+    height: 30%;
+    -webkit-border: 1px solid #000000;
+    -moz-border: 1px solid #000000;
+    -ms-border: 1px solid #000000;
+    border: 1px solid #000000; }
   .contact .send {
     display: flex;
     background-color: #4F5D75;
     width: 40%;
     height: 10%;
     color: white;
+    font-size: 100%;
     justify-content: center;
     -webkit-border: 1px solid #000000;
     -moz-border: 1px solid #000000;
@@ -127,6 +136,18 @@ footer {
     justify-content: center;
     height: 250px;
     background-color: #D3D3D3; }
+  .flex-item-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 8%; }
+  .flex-item-nav li {
+    display: flex;
+    font-size: 150%; }
+  .flex-item-nav a {
+    text-decoration: none;
+    color: #000000; }
   .flex-item-nav .social-media-icons {
     display: flex;
     flex-direction: row;

@@ -20,6 +20,25 @@
 		background-color: $lightgrey;
 	}
 
+	ul {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+		margin-right: 8%;
+	}
+
+	li {
+		display: flex;
+		font-size: 150%;
+	}
+
+	a {
+		text-decoration: none;
+		color: $black;
+	}
+
+
 	.social-media-icons {
 		display: flex;
 		flex-direction: row;

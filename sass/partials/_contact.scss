@@ -2,6 +2,12 @@
 	display: flex;
 	flex-flow: column wrap;
 
+	p {
+		font-size: 150%;
+		color: $black;
+		font-weight: bold;
+	}
+
 	.contact-form {
 		display: flex;
 		flex-wrap: wrap-reverse;
@@ -22,7 +28,8 @@
 
 	textarea {
 		background-color: $gray94;
-		height: 30%
+		height: 30%;
+		@include border(1px solid $black);
 	}
 
 	.send {
@@ -31,6 +38,7 @@
 		width: 40%;
 		height: 10%;
 		color: white;
+		font-size: 100%;
 		justify-content: center;
 		@include border(1px solid $black);
 	}
