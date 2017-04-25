@@ -135,7 +135,9 @@ footer {
     display: flex;
     justify-content: center;
     height: 250px;
-    background-color: #D3D3D3; }
+    background-color: #D3D3D3;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000; }
   .flex-item-nav ul {
     display: flex;
     justify-content: space-between;
