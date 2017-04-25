@@ -80,7 +80,7 @@ h3 {
     color: #000000;
     font-family: Georgia, serif; }
   .experience p {
-    flex-basis: 50%;
+    flex-basis: 35%;
     flex-wrap: wrap;
     font-size: 100%;
     color: #000000;
@@ -201,11 +201,6 @@ footer {
     height: 100%;
     width: 30%;
     background: #373F51; }
-  .skills .progress-text {
-    text-align: right;
-    padding-right: 20px;
-    line-height: 40px;
-    color: white; }
 
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
