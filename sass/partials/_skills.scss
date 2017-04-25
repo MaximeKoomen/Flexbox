@@ -1,6 +1,6 @@
 .skills{
 	display: flex;
-	-webkit-flex-direction: column;
+	flex-direction: column;
 
 	.skill-bar{
 		width: 100%;
@@ -14,5 +14,12 @@
 		height: 100%;
 		width: 30%;
 		background: $cloudburst;
+	}
+
+	.progress-text{
+		text-align: right;
+ 		padding-right: 20px;
+ 		line-height: 40px;
+ 		color: white;
 	}
 }
