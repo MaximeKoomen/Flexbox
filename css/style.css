@@ -59,6 +59,22 @@ h3 {
 .experience {
   display: flex;
   flex-direction: column; }
+  .experience .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .experience span {
+    display: flex;
+    font-size: 135%;
+    color: #000000;
+    font-family: Georgia, serif; }
+  .experience p {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    font-size: 100%;
+    color: #000000;
+    font-family: Georgia, serif; }
   .experience .experience-text {
     display: flex;
     justify-content: space-around; }

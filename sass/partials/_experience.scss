@@ -2,6 +2,28 @@
 	display: flex;
 	flex-direction: column;
 
+	.row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+		span {
+			display: flex;
+			font-size: 135%;
+			color: $black;
+			font-family: $heading-font;
+		}
+
+		p {
+			flex-basis: 50%;
+			flex-wrap: wrap;
+			font-size: 100%;
+			color: $black;
+			font-family: $heading-font;
+		}
+
 	.experience-text {
 		display: flex;
 		justify-content: space-around;
